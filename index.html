@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="display">0</div>
+      <div class="calBody">
+        <div class="operations">
+          <button class="btn operator" data-id="+">+</button>
+          <button class="btn operator" data-id="-">-</button>
+          <button class="btn operator" data-id="*" style="padding-top: 10px;">*</button>
+          <button class="btn operator" data-id="/">/</button>
+        </div>
+
+        <div class="keypad">
+          <div class="numberKeys">
+            <button class="btn" data-id="7">7</button>
+            <button class="btn" data-id="8">8</button>
+            <button class="btn" data-id="9">9</button>
+
+            <button class="btn" data-id="4">4</button>
+            <button class="btn" data-id="5">5</button>
+            <button class="btn" data-id="6">6</button>
+
+            <button class="btn" data-id="1">1</button>
+            <button class="btn" data-id="2">2</button>
+            <button class="btn" data-id="3">3</button>
+
+            <button class="btn" data-id="0">0</button>
+            <button class="btn" data-id=".">.</button>
+            <button class="btn equal" data-id="=">=</button>
+          </div>
+          <div class="otherKeys">
+            <button class="btn other" data-id="AC">AC</button>
+            <button class="btn other" data-id="del">⌫</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
